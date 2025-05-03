@@ -1,0 +1,152 @@
+.customInput{
+    height: 5.76vh;
+    width: 42.42vw;
+    border-color: #000000;
+    border-radius: 8px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: clamp(1rem, 1vw, 2em);
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding: 1.5vw;
+}
+
+.customInput-button{
+  width: 16.66vw;
+  height: 7.66vh;
+  gap: 16px;
+  border-radius: 16px;
+  border-width: 1px;
+  padding-right: 16px;
+  padding-left: 20%;
+  padding-bottom: 10%;
+  }
+
+.customInput:focus {
+    border-color: #000000;
+    box-shadow: 0 4px 0.12rem rgba(42, 43, 42, 0.25);
+  }
+ 
+  .customInput-button:focus {
+    border-color: #000000;
+    box-shadow: 5px 5px 0.12rem rgba(42, 43, 42, 0.25);
+  }
+ 
+  .customInput::placeholder {
+    color: #666666;
+    /* white-space: pre-line; */
+  }
+
+  .customInput-button::placeholder{
+    margin-left: 50%;
+    width: 18.66vw;
+    pointer-events: none;
+    border: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    color: #171718;
+    /* padding: 35%; */
+}
+    
+
+.customLabel{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+input[type="password"]::placeholder{
+  width : 100%;
+  color : #718096
+}
+
+.error-message{
+  color: #d9534f; 
+  background-color: #f8d7da; 
+  border: 1px solid #f5c6cb; 
+  /* padding: 0.625rem; */
+  margin-top: 0.625rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem; 
+  font-weight: bold;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 80%;
+}
+
+.error-message::before {
+  content: "⚠️ "; /* Add a warning icon before the message */
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .customInput, .customInput-button {
+    height: 42px;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .customInput-button::placeholder{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+  }
+ 
+  input[type="text"].customInput-button{
+    width : 100%
+  }
+
+  .customLabel {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 580px) {
+  .customInput, .customInput-button {
+    max-width: 100%;       
+    height: 42px;
+    font-size: 0.6rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .customInput-button::placeholder{
+    font-weight: 550;
+    font-size: 9px;
+    line-height: 140%;
+    width: 100%;
+    /* margin-left: auto; */
+  }
+
+  input[type="text"].customInput-button{
+    width : 100%
+  }
+
+  .customLabel {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .customInput, .customInput-button {
+    max-width: 100%;       
+    height: 38px;
+    font-size: 0.4rem;
+    padding: 0.4rem 0.7rem;
+  }
+  .customInput-button::placeholder{
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 140%;
+    width: 100%;
+    /* margin-left: auto; */
+  }
+  .customLabel {
+    font-size: 8px;
+  }
+}

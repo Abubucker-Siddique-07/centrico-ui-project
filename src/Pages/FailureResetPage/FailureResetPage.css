@@ -1,0 +1,66 @@
+
+.page-header-fail-eclipse {
+    margin: 1.25rem;
+    font-family: 'Cabin', sans-serif;
+    width: 30.6rem;
+    height: auto;
+    font-weight: 500;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 3rem;
+
+}
+
+.page-fail-eclipse-msg-container{
+    display: block;
+    margin : 2rem;
+    pointer-events: none;
+
+}
+
+.page-fail-eclipse-msg {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    color: #4A4A4A;
+    line-height: 1.5;
+    letter-spacing: 0.3px;    
+    width: 85%;
+    height: calc(3*1.6em);
+    max-height: calc(3*1.6em);
+    padding: 0.5em;
+    resize: horizontal;
+    border: none;
+    background-color: inherit;
+    overflow: hidden ;
+    text-align: center;
+  }
+
+.page-fail-eclipse-btn-container{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    padding: 2rem;
+    margin: 2rem
+}
+
+
+@media (max-width: 1200px) {
+    .page-header-fail-eclipse {
+        width: 50%;  
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-header-fail-eclipse {
+        width: 55%;  
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header-fail-eclipse {
+        width: 69%;  
+    }
+}  

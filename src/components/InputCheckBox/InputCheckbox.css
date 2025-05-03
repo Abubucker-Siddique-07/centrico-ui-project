@@ -1,0 +1,70 @@
+.customCheckbox{
+    border-color:none;
+    margin-left: 8%;
+    /* border-radius: 7px !important; */
+} 
+
+.customCheckbox:focus {
+    border-color: #888585;
+    box-shadow: 0 4px 0.12rem rgba(42, 43, 42, 0.25);
+  }
+  
+.checkboxLabel{
+font-family: 'Noto Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+width:200px;
+}
+
+/* .checkboxLayout{
+    width : 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+} */
+
+@media (max-width: 768px) {
+    .checkboxLabel {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .customCheckbox{
+        margin-left: 5%;
+    }     
+  }
+  
+  @media (max-width: 536px) {
+    .checkboxLabel {
+        font-size: 10px;
+        font-weight: 350;
+        line-height: 15px;
+      }
+  }
+
+  @media (max-width: 418px) {
+    .checkboxLabel {
+        font-size: 9px;
+        font-weight: 330;
+        line-height: 13px;
+      }
+      
+      .customCheckbox{
+        margin-left: 3%;
+    } 
+  }
+
+  @media (max-width: 320px) {
+    .checkboxLabel {
+        font-size: 8px;
+        font-weight: 300;
+        line-height: 11px;
+      }
+      
+      .customCheckbox{
+        margin-left: 3%;
+    } 
+  }
+  

@@ -1,0 +1,94 @@
+.mobile-verification-input-wrapper{
+    width : 30.5rem;
+    height: 37.6rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;    
+    color : #666666;
+    display: flex; 
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: nowrap;
+    border-color: black;
+    border:  #666666;
+    border-radius: 1.25rem;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+/* .input-wrapper > *:first-child{
+    top: 0px;
+} */
+
+.mobile-verification-input-wrapper .resendLink a{
+font-family: 'Cabin', sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: 0px;
+text-align: right;
+color: #167A38;
+text-decoration: none;
+margin: 5px;
+}
+
+.resendLink:hover{
+    color: #043d13;
+}
+
+/* .inputSelect-wrapper{
+    bottom: 25px;
+    top:10px;
+    left:30px
+} */
+
+.checkbox-wrapper{
+    margin-right: auto;
+}
+
+.input-box{
+    width : 100%;
+}
+
+@media (max-width: 768px) {
+    .mobile-verification-input-wrapper {
+        gap : 17px;
+        }
+    .mobile-verification-input-wrapper .resendLink a{
+        font-size: 12px;
+        font-weight: 600;
+        }
+    }
+    
+    @media (max-width: 500px) {
+    .mobile-verification-input-wrapper {
+        gap : 14px;
+    }
+    .mobile-verification-input-wrapper .resendLink a{
+        font-size: 10px;
+        font-weight: 550;
+    }    
+}
+    
+    
+    @media (max-width: 414px) {
+    .mobile-verification-input-wrapper {
+        gap : 13px;
+        }
+    .mobile-verification-input-wrapper .resendLink a{
+    font-size: 8px;
+    font-weight: 500;
+    }       
+    }
+
+    @media (max-width: 320px) {
+    .mobile-verification-input-wrapper {
+        gap : 11px;
+        }
+    .mobile-verification-input-wrapper .resendLink a{
+    font-size: 6px;
+    font-weight: 450;
+    }       
+    }  
+            

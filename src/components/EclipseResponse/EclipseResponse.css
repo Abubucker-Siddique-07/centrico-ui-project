@@ -1,0 +1,47 @@
+.success-eclipse-container{
+    display : table;
+    color: #25131A;
+    font-family: 'Cabin', 'sans-serif';
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 1.37rem;
+    line-height: 1.75rem;
+    letter-spacing: 0%;
+    height : 30vh;
+    text-align: center;
+    padding : 0.6rem;
+    margin:0 auto;
+}
+
+.success-eclipse-container img{
+    display: inline-block;
+    width: 11rem;
+    height: 11.77rem;
+    margin: 0.62rem;
+}
+
+.success-eclipse-span-container{
+    display: block;
+}
+.success-eclipse-container span{
+    display: block;
+}
+
+
+@media (max-width: 1200px) {
+    .success-eclipse-container {
+        height: 30vh;    
+    }
+}
+
+@media (max-width: 768px) {
+    .success-eclipse-container {
+        height: 25vh;  
+    }
+}
+
+@media (max-width: 480px) {
+    .success-eclipse-container {
+        height: 20vh;  
+    }
+}  

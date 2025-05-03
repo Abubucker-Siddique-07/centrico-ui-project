@@ -1,0 +1,47 @@
+html body{
+    /* background-color: #F8FAFACC; */
+    background-color: #BFC3C3;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    min-height: 100vh;         
+    padding: 1rem;             
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+
+  .headerBody {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 0.2rem;
+    /* background-color: #fff; */
+  }
+  
+
+  @media (max-width: 1200px) {
+    html {
+      font-size: 1.5vw;  
+    }
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 2vw;  
+    }
+  }
+  
+  @media (max-width: 480px) {
+    html {
+      font-size: 2.5vw;  
+    }
+  }

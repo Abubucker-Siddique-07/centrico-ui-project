@@ -1,0 +1,244 @@
+.inputSelect-wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    /* display: flex;
+    align-items: center;
+    justify-items: center; */
+    /* margin-left: 15%; */
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+    border-radius: 12px;
+  }
+
+.img-25{
+  width: 25px;
+  height: 25px;
+  left: 10px;
+}
+
+.input-text{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 110px; /* Adjust size */
+    height: 40px;
+    pointer-events: none;
+    border: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    color: #171718;
+}
+
+.text2{
+    top: 80%;
+    color: #718096;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 135%;
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 1300px) {
+    .input-text {
+      font-size: 14px;
+      font-weight: 650;
+      top: 55%;
+      left:30%
+    }
+  
+    .text2 {
+      font-size: 11px;
+      font-weight: 300;
+      top: 85%
+    }
+
+    .input-icon{
+        width: 37px;
+        height: 37px;
+    }
+
+    .img-25{
+      width: 25px;
+      height: 25px;
+      left: 10px;
+    }    
+    
+  }
+
+  @media (max-width: 1100px) {
+    .input-text {
+      font-size: 13px;
+      font-weight: 600;
+      top: 55%;
+      left:30%
+    }
+  
+    .text2 {
+      font-size: 10px;
+      font-weight: 300;
+      top: 85%
+    }
+
+    .input-icon{
+        width: 32px;
+        height: 32px;
+    }
+
+    .img-25{
+      width: 20px;
+      height: 20px;
+      left: 10px;
+    }    
+        
+  }  
+
+  @media (max-width: 950px) {
+    .input-text {
+      font-size: 12px;
+      font-weight: 550;
+      top: 55%;
+      left:35%
+    }
+  
+    .text2 {
+      font-size: 9px;
+      font-weight: 250;
+      top: 85%
+    }
+
+    .input-icon{
+        width: 30px;
+        height: 30px;
+    }
+        
+    .img-25{
+      width: 17px;
+      height: 17px;
+      left: 10px;
+    }   
+  }    
+
+@media (max-width: 768px) {
+    .input-text {
+      font-size: 10px;
+      font-weight: 600;
+      top: 75%;
+      left:35%
+    }
+  
+    .text2 {
+      font-size: 7px;
+      font-weight: 300;
+      top: 100%
+    }
+
+    .input-icon{
+        width: 25px;
+        height: 25px;
+    }
+    .img-25{
+      width: 0px;
+      height: 0px;
+      left: 8px;
+    }       
+  }
+  
+  @media (max-width: 710px) {
+    .input-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .img-25{
+      width: 0px;
+      height: 0px;
+      left: 8px;
+    }       
+  }
+
+  @media (max-width: 600px) {
+    .input-text {
+        font-size: 9px;
+        font-weight: 450;
+        top: 75%;
+        left:35%
+      }
+    
+      .text2 {
+        font-size: 6px;
+        font-weight: 250;
+        top: 100%
+      }
+      .input-icon{
+        width: 20px;
+        height: 20px;
+    }      
+    .img-25{
+      width: 0px;
+      height: 0px;
+      left: 8px;
+    }       
+    }  
+
+  @media (max-width: 559px) {
+    .input-text {
+        font-size: 0px;
+        font-weight: 400;
+        top: 75%;
+        left:35%
+      }
+    
+      .text2 {
+        font-size: 0px;
+        font-weight: 200;
+        top: 100%
+      }
+      .input-icon{
+        width: 25px;
+        height: 25px;
+        left: 30%
+    }  
+    .img-25{
+      width: 0px;
+      height: 0px;
+      left: 8px;
+    }           
+    }  
+  
+  @media (max-width: 330px) {
+    .input-icon{
+        width: 25px;
+        height: 25px;
+        left: 25%
+    }    
+    .img-25{
+      width: 0px;
+      height: 0px;
+      left: 8px;
+    }       
+}
+
+    @media (max-width: 300px) {
+        .input-icon{
+            width: 22px;
+            height: 22px;
+            left: 23%
+        }   
+        .img-25{
+          width: 0px;
+          height: 0px;
+          left: 8px;
+        }            
+    }    
