@@ -7,10 +7,12 @@ This is a React-based UI project demonstrating a login system with state managem
 - **Login Screen**: User authentication with validation
 - **Forgot Password Flow**: User can request a password reset
 - **Reset Password Screen**: User can set a new password
-- **React Router v6**: For managing protected and public routes
-- **Redux/Context API**: For managing global state (e.g., form inputs)
+- **React Router v6**: For managing conditional routes
+- **Context API**: For managing global state (No Redux)
 - **Responsive UI**: Aligned with the Figma design specs
 - **Assets**: All static assets (images, icons, etc.) managed in `src/assets/`
+
+  Note : It's flow walkthrough scenario and is tested with mocked data.
 
 ## 🖥️ Preview
 
@@ -25,3 +27,13 @@ Follow these steps to get the project up and running on your local machine:
    ```bash
    git clone https://github.com/Abubucker-Siddique-07/centrico-ui-project.git
    cd centrico-ui-project
+2. **Install dependencies**
+   ```bash
+   npm install
+3.**Start the development server**
+   ```bash
+   npm instal
+
+
+
+
