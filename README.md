@@ -16,7 +16,8 @@ This is a React-based UI project demonstrating a login system with state managem
 
 ## 🖥️ Preview
 
-![Login Screen](./src/assets/login-screen.png)
+![image](https://github.com/user-attachments/assets/91e2e121-6901-4733-8828-f42f7b18cf5d)
+
 *Sample preview of the login screen.*
 
 ## 🔧 Installation
