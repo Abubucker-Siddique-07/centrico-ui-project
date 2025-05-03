@@ -14,6 +14,13 @@ This is a React-based UI project demonstrating a login system with state managem
 
   Note : It's flow walkthrough scenario and is tested with mocked data.
 
+ - Mock-Password : abc123
+ - Mock-Mobile : 9876543210
+ - Mock-Mail : sid99@gmail.com
+ - Mock-mobile-otp : 9
+ - Mock-email-otp : 9999
+  
+
 ## 🖥️ Preview
 
 ![image](https://github.com/user-attachments/assets/91e2e121-6901-4733-8828-f42f7b18cf5d)
