@@ -40,12 +40,14 @@ Follow these steps to get the project up and running on your local machine:
    ```bash
    npm run build
 
-🛠️ Technologies Used
-1. React (for building the UI components)
-2. React Router v6 (for routing routes)
-3. Context API for state management)
-4. CSS / SCSS (for styling)
-5. Figma (for UI/UX design reference)
+
+## 🛠️ Technologies Used
+
+- **1. React (for building the UI components)
+- **2. React Router v6 (for routing routes)
+- **3. Context API for state management)
+- **4. CSS / SCSS (for styling)
+- **5. Figma (for UI/UX design reference)
 
 
 
