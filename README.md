@@ -30,9 +30,23 @@ Follow these steps to get the project up and running on your local machine:
 2. **Install dependencies**
    ```bash
    npm install
-3.**Start the development server**
+   
+3. **Start the development server**
    ```bash
-   npm instal
+   npm run start
+   
+4. Build for production
+   ```bash
+   npm run build
+
+🛠️ Technologies Used
+1. React (for building the UI components)
+2. React Router v6 (for routing routes)
+3. Context API for state management)
+4. CSS / SCSS (for styling)
+5. Figma (for UI/UX design reference)
+
+
 
 
 
