@@ -43,15 +43,15 @@ Follow these steps to get the project up and running on your local machine:
 
 ## 🛠️ Technologies Used
 
-- ** React (for building the UI components)
+- React (for building the UI components)
   
-- ** React Router v6 (for routing routes)
+- React Router v6 (for routing routes)
   
-- ** Context API for state management)
+- Context API for state management)
   
-- ** CSS / SCSS (for styling)
+- CSS (for styling)
 
-- ** Figma (for UI/UX design reference)
+- Figma (for UI/UX design reference)
 
 
 
