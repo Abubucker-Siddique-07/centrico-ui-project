@@ -18,7 +18,7 @@ const ResetPassPageMobile = () => {
 
 
     const mobilePattern = "^[6-9]\d{9}$";
-    const mockMobile = "9003636602"
+    const mockMobile = "9876543210"
 
     const handleValue = (e)=>{
         const value = e.target.value;
